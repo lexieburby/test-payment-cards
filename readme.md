@@ -15,6 +15,7 @@ A list of available test payment cards for various payment gateways. Please feel
     - [Pay360](#pay360)
     - [PayPal](#paypal)
     - [PayPoint](#paypoint)
+    - [Paytrail](#paytrail)
     - [RedSys](#redsys)
     - [Saferpay](#saferpay)
     - [SagePay](#sagepay)
@@ -165,6 +166,16 @@ Card Type           | Card Number(s)
 Maestro             | 491182014295916748
 Mastercard (Credit) | 5555555555554444 and 5105105105105100
 Visa                | 4444333322221111 and 4444444444441111
+
+### Paytrail
+
+Any date in the future can be used for the expiry date and any 3 digits for the CVC number. A full list of test cards for Paytrail can be found on [their website](http://docs.paytrail.com/en/ch03.html).
+
+Card Type           | Card Number
+:-------------------|:--------------------------------------
+American Express    | 375700000000002
+Mastercard          | 5413000000000000
+Visa                | 4925000000000004
 
 ### RedSys
 
