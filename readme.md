@@ -84,9 +84,13 @@ Further details about using Braintree test payment cards can be found on their [
 
 ### Cashnet
 
+http://www.cashnet.com
+
 Card Number      | Expiry Date
 :----------------|:----------------------------------
 4111111111111111 | any date in the future
+
+**Note** CVV in production, but not in test.
 
 ### ePay
 
