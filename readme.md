@@ -84,7 +84,7 @@ Further details about using Braintree test payment cards can be found on their [
 
 ### Cashnet
 
-http://www.cashnet.com
+Test cards for [www.cashnet.com](http://www.cashnet.com).
 
 Card Number      | Expiry Date
 :----------------|:----------------------------------
