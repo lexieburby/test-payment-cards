@@ -46,7 +46,7 @@ Visa                      | 4007000000027, 4012888818888 and 4111111111111111
 
 ### Bambora
 
-The following test cards are for Bambora as defined on their [developers site](http://dev.bambora.com/testcards.html#credit-cards). Use the card expiry date "05/17".
+The following test cards are for Bambora as defined on their [developers site](http://dev.bambora.com/testcards.html#credit-cards). Use the card expiry date "05/20".
 
 Card Type            | Card Number         | CVC
 :--------------------|:--------------------|-----
