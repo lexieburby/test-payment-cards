@@ -170,6 +170,8 @@ JCB                        | 3530111333300000 and 3566002020360505
 MasterCard                 | 5555555555554444 and 5105105105105100
 Visa                       | 4111111111111111, 4012888888881881 and 4222222222222
 
+You can also create a [Sandbox account](https://developer.paypal.com/docs/classic/lifecycle/sb_about-accounts/) to make a test payment with instead of using a test payment card. The UK sandbox appears to require this method rather than using a test payment card.
+
 ### PayPoint
 
 Card Type           | Card Number(s)
