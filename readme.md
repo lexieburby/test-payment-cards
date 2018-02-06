@@ -10,6 +10,7 @@ A list of available test payment cards for various payment gateways. Please feel
     - [Bambora](#bambora)
     - [Braintree](#braintree)
     - [Cashnet](#cashnet)
+    - [CyberSource](#cybersource)
     - [ePay](#epay)
     - [Klarna](#klarna)
     - [Ogone](#ogone)
@@ -91,6 +92,21 @@ Card Number      | Expiry Date
 4111111111111111 | any date in the future
 
 **Note** CVV in production, but not in test.
+
+### CyberSource
+
+Further information about testing, including this list of valid test credit card numbers, can be found at the [CyberSource Developer Center](https://www.cybersource.com/developers/).
+
+Card Type               | Card Number(s)
+:-----------------------|:--------------------------------------------------
+American Express        | 378282246310005
+Discover                | 6011111111111117
+JCB                     | 3566111111111113
+Maestro (International) | 50339619890917 and 586824160825533338
+Maestro (UK Domestic)   | 6759411100000008, 6759560045005727054, and 5641821111166669
+Mastercard              | 2222420000001113, 2222630000001125, and 5555555555554444
+UATP                    | 135412345678911
+VISA                    | 4111111111111111
 
 ### ePay
 
