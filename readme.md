@@ -13,6 +13,7 @@ A list of available test payment cards for various payment gateways. Please feel
     - [CyberSource](#cybersource)
     - [ePay](#epay)
     - [Klarna](#klarna)
+    - [NetPay](#netpay)
     - [Ogone](#ogone)
     - [Pay360](#pay360)
     - [PayPal](#paypal)
@@ -135,6 +136,34 @@ Card Type | Card Number
 Visa      | 4111111111111111
 
 Details about using test cards in Ogone can be found here: [Create and configure your Ogone Test Account](https://payment-services.ingenico.com/int/en/ogone/support/guides/user%20guides/test-account-creation).
+
+### NetPay
+
+The following cards are for [NetPay](https://www.netpay.co.uk). See their [test card page](https://developer.netpay.co.uk/hosted/test_card_numbers/v1) for more details such as how to generate transaction responses, address verification responses and CSC code validation responses.
+
+The card numbers below can be used for testing. You will only be able to use card numbers for card types supported by your merchant/acquirer configuration.
+
+Card Type           | Card Number         | Notes
+:-------------------|:--------------------|:---------------------------------------
+Amex non Safekey    | 340353278080900     | Amex Expiry date driven card
+Amex Safekey        | 345678901234564     | Amex Expiry date driven card
+Laser               | 6771171146509164    | Expiry driven card
+Mastercard credit   | 5301250070000050    | Expiry driven card
+Mastercard credit   | 5454609899026213    | Expiry driven card 
+Mastercard debit    | 5133333333333338    | Expiry driven card  (3ds not available)
+Mastercard credit   | 5123456789012346    | Expiry driven card (3ds registered)
+Mastercard debit    | 5111111111111118    | Expiry driven card (not 3ds registered)
+Mastercard          | 2223000000000023    | Expiry driven card
+Maestro             | 6759010012345678914 | Expiry driven card (3ds registered)
+Maestro             | 675938410597000022  | Expiry driven card
+Maestro             | 6759000968432575    | Expiry driven card
+Maestro             | 6759173972560846    | Expiry driven card
+Maestro int'l       | 5000008602179457569 | Expiry driven card
+Visa                | 491748000000        | Expiry driven card. Fails Mod 10
+Visa Debit          | 4917480000000008    | Expiry driven card
+Visa Credit         | 4715059999000437    | Expiry driven card credit
+Visa Debit          | 4539791001730106    | Expiry driven card (3ds registered)
+Visa Debit          | 4508750015741019    | Expiry driven card
 
 ### Pay360
 
