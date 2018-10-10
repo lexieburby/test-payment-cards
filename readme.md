@@ -24,6 +24,7 @@ A list of available test payment cards for various payment gateways. Please feel
     - [SagePay](#sagepay)
     - [SecurePay](#securepay)
     - [Stripe](#stripe)
+    - [Trustpay Global](#trustpay-global)
     - [WePay](#wepay)
     - [WorldPay](#worldpay)
 - [Further Resources](#further-resources)
@@ -314,6 +315,27 @@ MasterCard (Debit)   | 5200828282828210
 MasterCard (Prepaid) | 5105105105105100
 Visa                 | 4242424242424242 and 4012888888881881
 Visa (Debit)         | 4000056655665556
+
+### Trustpay Global
+
+http://trustpayglobal.com
+
+Card Type | Card Number         | Response
+:---------|:--------------------|:-------------------------------
+Visa      | 4012001036275556    | No Response From Visa Directory Server
+Visa      | 4012001038443335    | Cardholder Not Participating
+Visa      | 4012001038488884    | Unable to Verify Enrollment
+Visa      | 4012001036298889    | Invalid Response from Directory Server
+Visa      | 4012001036853337    | Invalid ACS Digital Signature
+Visa      | 4012001036983332    | Expired ACS Signing Certificate
+Visa      | 4012001037141112    | Successful Authentication via a 16-digit PAN
+Visa      | 4005559876540       | Successful Authentication via a 13-digit PAN
+Visa      | 4012010000000000009 | Successful Authentication via a 19-digit PAN
+Visa      | 4012001037167778    | Successful "Merchant Attempt" via a 16-digit PAN
+Visa      | 4012001037461114    | Authentication Failure
+Visa      | 4012001037484447    | Authentication Not Available
+Visa      | 4012001037490006    | Invalid Payer Authentication Response
+Visa      | 4012001037490014    | Valid 3-D Secure Message With Embedded Whitespace Characters
 
 ### WePay
 
