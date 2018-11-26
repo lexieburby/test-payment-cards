@@ -11,6 +11,7 @@ A list of available test payment cards for various payment gateways. Please feel
     - [Braintree](#braintree)
     - [Cashnet](#cashnet)
     - [CyberSource](#cybersource)
+    - [eMerchantPay](#emerchantpay)
     - [ePay](#epay)
     - [Klarna](#klarna)
     - [NetPay](#netpay)
@@ -109,6 +110,35 @@ Maestro (UK Domestic)   | 6759411100000008, 6759560045005727054, and 56418211111
 Mastercard              | 2222420000001113, 2222630000001125, and 5555555555554444
 UATP                    | 135412345678911
 VISA                    | 4111111111111111
+
+### eMerchantPay
+
+Test cards for [www.emerchantpay.com](https://www.emerchantpay.com).
+
+Card Number(s)   | Card Type   | Transaction Result 
+:----------------|:----------- |:----------------------
+4200000000000000 | Visa        | successful transaction
+4111111111111111 | Visa        | transaction declined
+5555555555554444 | Master Card | successful transaction
+5105105105105100 | Master Card | transaction declined
+
+For 3DSecure testing the following credit card numbers can be used:
+
+Card Number(s)   | Card Type  | Transaction Result
+:----------------|:-----------|:-------------------------------------------------------------------------------------
+4711100000000000 | Visa       | 3DSecure enrolled
+4012001037461114 | Visa       | 3DSecure enrolled failing authentication
+4012001036853337 | Visa       | 3DSecure unavailable - Card Not Participating
+4012001037484447 | Visa       | Error in 3DSecure Network in first step of 3DS authentication process
+4012001036273338 | Visa       | Error in 3DSecure Network in second (asynchronous) step of 3DS authentication process
+5420923878724339 | MasterCard | 3DSecure enrolled
+5185540810000019 | MasterCard | 3DSecure enrolled failing authentication
+5111010030175156 | MasterCard | 3DSecure unavailable - Card Not Participating
+5200828282828210 | MasterCard | Error in 3DSecure Network in first step of 3DS authentication process
+5204230080000017 | MasterCard | Error in 3DSecure Network in second (asynchronous) step of 3DS authentication process
+
+When redirected to the dummy authentication page you may enter any password you like.
+
 
 ### ePay
 
