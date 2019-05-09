@@ -346,7 +346,7 @@ MasterCard (Prepaid) | 5105105105105100
 Visa                 | 4242424242424242 and 4012888888881881
 Visa (Debit)         | 4000056655665556
 
-### Trustpay Global
+### Trustpay Global (PinPay)
 
 http://trustpayglobal.com
 
@@ -368,6 +368,8 @@ Visa      | 4012001037490006    | Invalid Payer Authentication Response
 Visa      | 4012001037490014    | Valid 3-D Secure Message With Embedded Whitespace Characters
 
 Passing a transaction amount of `900` (*e.g.* `$9.00`) will result in the payment being declined.
+
+Use `123` as the CVV for a successful transaction and `999` for the card details to be rejected.
 
 ### WePay
 
