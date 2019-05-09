@@ -25,7 +25,7 @@ A list of available test payment cards for various payment gateways. Please feel
     - [SagePay](#sagepay)
     - [SecurePay](#securepay)
     - [Stripe](#stripe)
-    - [Trustpay Global](#trustpay-global)
+    - [Trustpay Global (PinPay)](#trustpay-global-pinpay)
     - [WePay](#wepay)
     - [WorldPay](#worldpay)
 - [Further Resources](#further-resources)
