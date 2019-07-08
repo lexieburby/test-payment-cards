@@ -215,9 +215,9 @@ Mastercard (Debit)  | 9900000000010407 | U   | N
 Mastercard (Credit) | 9901000000005133 | Y   | Y
 Mastercard (Credit) | 9901000000000019 | N   | Y
 Mastercard (Credit) | 9901000000010257 | U   | Y
-Mastercard (Credit) | 9901000000005281 | Y   | Y
-Mastercard (Credit) | 9901000000000167 | N   | Y
-Mastercard (Credit) | 9901000000010406 | U   | Y
+Mastercard (Credit) | 9901000000005281 | Y   | N
+Mastercard (Credit) | 9901000000000167 | N   | N
+Mastercard (Credit) | 9901000000010406 | U   | N
 Visa (Debit)        | 9902000000005132 | Y   | Y
 Visa (Debit)        | 9902000000000018 | N   | Y
 Visa (Debit)        | 9902000000010256 | U   | Y
@@ -231,7 +231,7 @@ Visa (Credit)       | 9903000000005289 | Y   | N
 Visa (Credit)       | 9903000000000165 | N   | N
 Visa (Credit)       | 9903000000010404 | U   | N
 
-The above test card details for Pay360 can be found on their [developers support website](https://paymentdeveloperdocs.com/test_card_numbers/).
+The above test card details for Pay360 can be found on their [developers support website](https://docs.pay360.com/getting-started/test-card-numbers/).
 
 ### PayPal
 
