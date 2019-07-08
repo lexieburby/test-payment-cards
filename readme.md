@@ -215,9 +215,9 @@ Mastercard (Debit)  | 9900000000010407 | U   | N
 Mastercard (Credit) | 9901000000005133 | Y   | Y
 Mastercard (Credit) | 9901000000000019 | N   | Y
 Mastercard (Credit) | 9901000000010257 | U   | Y
-Mastercard (Credit) | 9901000000005281 | Y   | Y
-Mastercard (Credit) | 9901000000000167 | N   | Y
-Mastercard (Credit) | 9901000000010406 | U   | Y
+Mastercard (Credit) | 9901000000005281 | Y   | N
+Mastercard (Credit) | 9901000000000167 | N   | N
+Mastercard (Credit) | 9901000000010406 | U   | N
 Visa (Debit)        | 9902000000005132 | Y   | Y
 Visa (Debit)        | 9902000000000018 | N   | Y
 Visa (Debit)        | 9902000000010256 | U   | Y
