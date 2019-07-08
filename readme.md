@@ -231,7 +231,7 @@ Visa (Credit)       | 9903000000005289 | Y   | N
 Visa (Credit)       | 9903000000000165 | N   | N
 Visa (Credit)       | 9903000000010404 | U   | N
 
-The above test card details for Pay360 can be found on their [developers support website](https://paymentdeveloperdocs.com/test_card_numbers/).
+The above test card details for Pay360 can be found on their [developers support website](https://docs.pay360.com/getting-started/test-card-numbers/).
 
 ### PayPal
 
