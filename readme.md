@@ -160,14 +160,6 @@ Card Number      | CVV | Expiry Date
 
 Test payment card details taken from the Klarna [developer documentation](https://developers.klarna.com/en/se+php/kco-v2/test-credentials).
 
-### Ogone
-
-Card Type | Card Number
-:---------|:----------------
-Visa      | 4111111111111111
-
-Details about using test cards in Ogone can be found here: [Create and configure your Ogone Test Account](https://payment-services.ingenico.com/int/en/ogone/support/guides/user%20guides/test-account-creation).
-
 ### NetPay
 
 The following cards are for [NetPay](https://www.netpay.co.uk). See their [test card page](https://developer.netpay.co.uk/hosted/test_card_numbers/v1) for more details such as how to generate transaction responses, address verification responses and CSC code validation responses.
@@ -195,6 +187,14 @@ Visa Credit         | 4715059999000437    | Expiry driven card credit
 Visa Debit          | 4917480000000008    | Expiry driven card
 Visa Debit          | 4539791001730106    | Expiry driven card (3ds registered)
 Visa Debit          | 4508750015741019    | Expiry driven card
+
+### Ogone
+
+Card Type | Card Number
+:---------|:----------------
+Visa      | 4111111111111111
+
+Details about using test cards in Ogone can be found here: [Create and configure your Ogone Test Account](https://payment-services.ingenico.com/int/en/ogone/support/guides/user%20guides/test-account-creation).
 
 ### Pay360
 
