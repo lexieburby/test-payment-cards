@@ -235,7 +235,7 @@ Visa Debit          | 4508750015741019    | Expiry driven card
 
 The following cards are for [Monetico](https://www.monetico-paiement.fr/). See their [test card page](https://www.monetico-paiement.fr/fr/piloter-suivre/parametrage/environnement-de-test.html) for more details.
 
-The card numbers below can be used for testing..
+The card numbers below can be used for testing.
 
 Card Type | Card Number      | 3DS | Successful Authorisation
 :---------|:-----------------|:----|:------------------------
