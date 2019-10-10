@@ -15,6 +15,7 @@ A list of available test payment cards for various payment gateways. Please feel
     - [ePay](#epay)
     - [GlobalPayments](#globalpayments)
     - [Klarna](#klarna)
+    - [Monetico](#monetico)
     - [NetPay](#netpay)
     - [Ogone](#ogone)
     - [Pay360](#pay360)
@@ -229,6 +230,18 @@ Visa Credit         | 4715059999000437    | Expiry driven card credit
 Visa Debit          | 4917480000000008    | Expiry driven card
 Visa Debit          | 4539791001730106    | Expiry driven card (3ds registered)
 Visa Debit          | 4508750015741019    | Expiry driven card
+
+### Monetico
+
+The following cards are for [Monetico](https://www.monetico-paiement.fr/). See their [test card page](https://www.monetico-paiement.fr/fr/piloter-suivre/parametrage/environnement-de-test.html) for more details.
+
+The card numbers below can be used for testing.
+
+Card Type | Card Number      | 3DS | Successful Authorisation
+:---------|:-----------------|:----|:------------------------
+Visa      | 0000010000000003 | N   | N
+Visa      | 0000010000000004 | Y   | N
+Visa      | 0000010000000005 | Y   | Y
 
 ### Ogone
 
