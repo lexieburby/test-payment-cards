@@ -10,6 +10,7 @@ A list of available test payment cards for various payment gateways. Please feel
     - [Bambora](#bambora)
     - [Braintree](#braintree)
     - [Cashnet](#cashnet)
+    - [Concardis](#concardis)
     - [CyberSource](#cybersource)
     - [eMerchantPay](#emerchantpay)
     - [ePay](#epay)
@@ -97,6 +98,29 @@ Card Number      | Expiry Date
 4111111111111111 | any date in the future
 
 **Note** CVV in production, but not in test.
+
+### Concardis
+
+Test cards for [www.concardis.com](https://www.concardis.com/).
+
+| Card | PAN | CVC | Exp date |
+|--------------------------------------------------|------------------|-----|----------|
+| VISA Non-3DS | 4012001038443335 | 123 | 12/21 |
+| VISA 3DS 1.0 | 4149011500000147 | 123 | 12/21 |
+| VISA 3DS 2.0 - Frictionless Flow | 4111111111111111 | 123 | 12/21 |
+| VISA 3DS 2.0 - Challenge Flow | 4000007000000031 | 123 | 12/21 |
+| Master Card Non-3DS | 5399999999999999 | 123 | 12/21 |
+| Master Card 3DS 1.0 | 5232569007637831 | 123 | 12/21 |
+| Master Card 3DS 2.0 - Frictionless Flow | 5556011778787485 | 123 | 12/21 |
+| Master Card 3DS 2.0 - Challenge Flow | 2720992593319364 | 123 | 12/21 |
+| American Express Non-SafeKey | 374111111111111 | 123 | 12/21 |
+| American Express SafeKey 1.0 | 373953192351004 | 123 | 12/21 |
+| American Express SafeKey 2.0 - Frictionless Flow | 371449635398431 | 123 | 12/21 |
+| American Express SafeKey 2.0 - Challenge Flow | 346018484777573 | 123 | 12/21 |
+| Maestro Non-3DS | 6400051234567895 | - | - |
+| VISA Debit Non-3DS | 4462030000000000 | 123 | 12/21 |
+
+Further details about using Concardis test payment cards can be found on their [REST API simulator page](https://docs.payengine.de/buildyourown/restdoc/simulator).
 
 ### CyberSource
 
