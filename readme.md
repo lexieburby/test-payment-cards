@@ -10,6 +10,7 @@ A list of available test payment cards for various payment gateways. Please feel
     - [Bambora](#bambora)
     - [Braintree](#braintree)
     - [Cashnet](#cashnet)
+    - [ChargeBee](#chargebee)
     - [Concardis](#concardis)
     - [CyberSource](#cybersource)
     - [eMerchantPay](#emerchantpay)
@@ -99,6 +100,21 @@ Card Number      | Expiry Date
 
 **Note** CVV in production, but not in test.
 
+### ChargeBee
+
+The following test cards are for ChargeBee as defined in their [docs](https://www.chargebee.com/docs/cards.html):
+
+Card Type  | Card Number      | Response
+:----------|:-----------------|:---------
+AMEX       | 378282246310005  | Success
+Diners     | 38520000023237   | Success
+Discover   | 6011111111111117 | Success
+JCB        | 3530111333300000 | Success
+MasterCard | 5555555555554444 | Success
+Visa       | 4111111111111111 | Success
+Visa       | 4119862760338320 | Card Storage will fail with a gateway verification failure
+Visa       | 4005519200000004 | Charge attempts will fail with an "Insufficient funds" error
+
 ### Concardis
 
 Test cards for [www.concardis.com](https://www.concardis.com/).
@@ -141,7 +157,7 @@ VISA                    | 4111111111111111
 
 Test cards for [www.emerchantpay.com](https://www.emerchantpay.com).
 
-Card Number(s)   | Card Type   | Transaction Result 
+Card Number(s)   | Card Type   | Transaction Result
 :----------------|:----------- |:----------------------
 4200000000000000 | Visa        | successful transaction
 4111111111111111 | Visa        | transaction declined
@@ -256,7 +272,7 @@ Maestro             | 6759000968432575    | Expiry driven card
 Maestro             | 6759173972560846    | Expiry driven card
 Maestro int'l       | 5000008602179457569 | Expiry driven card
 Mastercard credit   | 5301250070000050    | Expiry driven card
-Mastercard credit   | 5454609899026213    | Expiry driven card 
+Mastercard credit   | 5454609899026213    | Expiry driven card
 Mastercard credit   | 5123456789012346    | Expiry driven card (3ds registered)
 Mastercard debit    | 5133333333333338    | Expiry driven card  (3ds not available)
 Mastercard debit    | 5111111111111118    | Expiry driven card (not 3ds registered)
