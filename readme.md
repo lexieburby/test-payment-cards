@@ -447,12 +447,6 @@ http://trustpayglobal.com
 
 Card Type | Card Number         | Response
 :---------|:--------------------|:-------------------------------
-Visa      | 4012001036275556    | No Response From Visa Directory Server
-Visa      | 4012001038443335    | Cardholder Not Participating
-Visa      | 4012001038488884    | Unable to Verify Enrollment
-Visa      | 4012001036298889    | Invalid Response from Directory Server
-Visa      | 4012001036853337    | Invalid ACS Digital Signature
-Visa      | 4012001036983332    | Expired ACS Signing Certificate
 Visa      | 4012001037141112    | Successful Authentication via a 16-digit PAN
 Visa      | 4005559876540       | Successful Authentication via a 13-digit PAN
 Visa      | 4012010000000000009 | Successful Authentication via a 19-digit PAN
@@ -461,6 +455,12 @@ Visa      | 4012001037461114    | Authentication Failure
 Visa      | 4012001037484447    | Authentication Not Available
 Visa      | 4012001037490006    | Invalid Payer Authentication Response
 Visa      | 4012001037490014    | Valid 3-D Secure Message With Embedded Whitespace Characters
+Visa      | 4012001036275556    | No Response From Visa Directory Server
+Visa      | 4012001038443335    | Cardholder Not Participating
+Visa      | 4012001038488884    | Unable to Verify Enrollment
+Visa      | 4012001036298889    | Invalid Response from Directory Server
+Visa      | 4012001036853337    | Invalid ACS Digital Signature
+Visa      | 4012001036983332    | Expired ACS Signing Certificate
 
 Passing a transaction amount of `900` (*e.g.* `$9.00`) will result in the payment being declined.
 
